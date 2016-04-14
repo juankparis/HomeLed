@@ -1,0 +1,191 @@
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/* utilidades */
+.U-text{
+	color:#727272;
+}
+
+/* header */
+
+.app-header{
+	background-size: cover;
+	background: url('../img/img1.jpg') no-repeat center top fixed;
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+	font-family: "Avenir", Futura, Helvetica, sans-serif;
+	letter-spacing: 2px;
+	padding-bottom: 50px;
+	padding-top: 1px;
+	text-transform: uppercase;
+}
+.app-navbar{
+	background: rgba(0, 0, 0, 0.7);
+	border-radius: 0;
+}
+.app-link{
+	color: white;
+}
+.app-nav>li>a{
+	color: white;
+}
+.app-nav>li>a:hover{
+	/* color: white; */
+	background: #0080d6; 
+}
+.app-icon{
+	/* color:white; */
+	/* background: black; */
+	background: white;
+}
+.app-seccion1{
+	margin: 0 auto;
+	margin-top: 170px;
+	width: 60%;
+}
+.app-titulo{
+	color: white;
+	font-size: 2.8em;
+	margin-bottom: 35px;
+	text-align: center;
+}
+.app-resaltar{
+	color: #0080d6;
+}
+.app-descripcion{
+	color: white;
+	font-size: 1em;
+	margin-bottom: 100px;
+	text-align: center;
+}
+.app-formulario1{
+	margin: 0 auto;
+	width: 100%;
+}
+.app-formulario2{
+	background: rgba(0,0,0,0.6);
+	padding: 15px 25px 25px 25px;
+}
+.app-input{
+	height: 50px;
+	margin-top: 10px;
+}
+.app-boton{
+	background: #0080d6;
+	color: white;
+	height: 50px;
+	margin-top: 10px;
+}
+.app-boton:hover{
+	color: white;
+}
+/* bombillos */
+
+/* formas de pago */
+.app-seccion3{
+	margin: 80px 0;
+}
+.app-titulo3{
+	margin-top: 0;
+}
+.app-separador{
+	width: 100px;
+	border-bottom: 1px solid #0080d6;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.app-justificar{
+	text-align: justify;
+	color: #727272;
+}
+.app-media{
+	margin-top: 40px;
+}
+.app-glyphicon1{
+	background-color: #0080d6;
+	color: white;
+	font-size: 30px;
+	padding: 10px;
+}
+/* formas de envio */
+
+.app-seccion4{
+	background: #f7f8fa;
+	padding: 80px 0;
+}
+/* caracteristicas de bombillos led */
+.app-contenedor{
+	padding-bottom: 40px;
+	padding-top: 20px;
+	text-align: center;
+	/* margin: 1.3em; */
+}
+.app-separador2{
+	border-bottom: 1px solid #0080d6;
+	margin: 20px auto;
+	width: 100px;
+}
+.glyphicon2{
+	color: #0080d6;
+	font-size: 60px;
+}
+.app-descripcion2{
+	color: #727272;
+}
+/* descuentos */
+.app-lista1{
+	background-color: #323232;
+	color: white;
+	text-align: center;
+}
+.app-lista2{
+	background-color: #0080d6;
+	color: white;
+	text-align: center;
+}
+.app-precio{
+	text-align: center;
+}
+.app-pago{
+	font-weight: bold;
+	margin-right: 30px;
+}
+.app-btn1{
+	background-color: white;
+	border: 1px solid black;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+.app-btn2{
+	background-color: #0080d6;
+	color: white;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+/* footer */
+footer{
+	background-color: #0080d6;
+	box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.5); 
+	margin: 1.5em 0 0 0;
+	padding: 1em 0;
+}
+footer h4{
+	color: white;
+	text-align: center;
+}
+
+@media (max-width: 768px){
+	.app-seccion1{
+		width: 90%;
+	}
+	.app-titulo{
+		font-size: 1.8em;
+		margin-bottom: 50px;
+		margin-top: 50px;
+	}
+	.app-descripcion{
+		font-size: 0.8em;
+		margin-bottom: 50px;
+	}
+}
